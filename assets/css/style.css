@@ -193,12 +193,137 @@ div.right{
     width: 250px;
 	height: 250px;
 }
+@media only screen and (max-width: 980px) {
+
+	body {
+		width: 85%;
+		height: 1000px;
+		margin: auto;
+	}
+
+	.container, .main {
+		height: auto;
+	}
+
+	.picture {
+		width: 90%;
+		height: 100%;
+		margin: 15px 5% 20px 5%;
+		
+	}
+
+	.container, .main p {
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
 
 
 
+	.portfolio-item {
+		height: 750px;
+    }
 
+    .item-name, .page-title {
+		width: 90%;
+		height: 250px;
+		margin: 15px 5% 20px 5%;
+	}
+
+	#portfolio img {
+		width: 100%;
+		height: 100%;
+	}
+
+	@media only screen and (max-width: 768px) {
 
 		
-
-
+		body {
+			height: 1150px;
+		}
+	
+		.nav {
+			padding-right: 25px;
+			position: absolute;
+		}
+	
+		.container, .main {
+			margin: 35px;
+		}
+	
+		.picture {
+			width: 45%;
+			margin: 15px 15px 0px 15px;
+		}
+	
+		.portfolio-item {
+			height: 700px;
+			margin: 35px;
+		}
+	
+		.item-name, .page-title {
+			width: 45%;
+			height: 180px;
+			margin: 10px 0px 10px 3.2%;
+			float: left;
+		}
+	
+		
+		
+	
+		#contact.page-title {
+			margin: 35px;
+		}
+	
+		@media only screen and (max-width: 640px) {
+			
+			body {
+				height: 1200px;
+			}
+		
+			h1 {
+				width: 100%;
+				margin: 0;
+			}
+		
+			.nav {
+				text-align: center;
+				position: relative;
+				background: #fff;
+				margin-bottom: 20px;
+				padding: 0px;
+				height: 40px;
+				line-height: 40px;
+			}
+		
+			.main, .container {
+				margin: 25px;
+				height: auto;
+			}
+		
+			.picture {
+				width: 90%;
+				margin: 15px 5% 15px 5%;
+			}
+		
+			#connect {
+				margin: 25px;
+				text-align: center;
+			}
+		
+			
+		
+			.portfolio-item {
+				margin: 25px;
+			}
+		
+			.item-name {
+				width: 90%;
+				height: 200px;
+				margin: 15px 5% 20px 5%;
+			}
+		
+			
+	
+ 
 	
